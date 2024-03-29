@@ -40,3 +40,17 @@ footer p {
     padding: 1em;
     text-align: center;
 }
+/*  MEDIA Q */
+
+@media (max-width:676px) {
+    .digitalclock {
+        flex-direction: column;
+    }
+    #colon1, #colon2 {
+        display: none;
+    }
+    #hour, #minute {
+        border-bottom: .5px solid grey;
+    }
+
+}
