@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(36, 49, 36);
+}
+header{
+    border-bottom: .5px solid rgb(202, 202, 202);
+    color: rgb(150, 150, 150);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1.5em 1em;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    align-items: center;
+    color: beige;
+}
+.digitalclock {
+    display:flex;
+    flex-direction: row;
+    gap: .25em;
+    background-color: rgb(1, 41, 1);
+    font-size: 2em;
+    padding: 1em;
+}
+
+.digitalclock h3 {
+    color: rgb(155, 155, 155);
+}
+
+footer p {
+    color: grey;
+    padding: 1em;
+    text-align: center;
+}
